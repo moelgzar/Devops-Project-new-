@@ -1,9 +1,9 @@
-# 1-**create VMs**
+# **create VMs**
 
-## 1.1- ubntu vm for K8S
-## 1.2- ubntu vm for jenknis
-## 1.3- ubntu vm for SonarQube
-## 1.4- ubntu vm for Nexus 
+## 1 ubntu vm for K8S
+## 1 ubntu vm for jenknis
+## 1 ubntu vm for SonarQube
+## 1 ubntu vm for Nexus 
 
 ## 1.1 - **install and setup K8S** 
  
