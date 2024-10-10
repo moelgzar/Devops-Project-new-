@@ -2,15 +2,16 @@
 # Create Sonarqube Docker container
 
 ### To run SonarQube in a Docker container with the provided command, you can follow these steps:
-#### 1.  log in to your Docker Hub account from your Docker host, you can use the following command: 
+### 1.  log in to your Docker Hub account from your Docker host, you can use the following command: 
+
 `docker login`
 
 ### 2. Open your terminal.
-#### Enter your Docker Hub username when prompted:
+### Enter your Docker Hub username when prompted:
 `Username: your_dockerhub_username`
-#### 3. Enter your Docker Hub password:
+### 3. Enter your Docker Hub password:
 `Password: your_dockerhub_password`
-#### it will print Login Succeeded
+### it will print Login Succeeded
 
 ### 2. Run the following command:
 
