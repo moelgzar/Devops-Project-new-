@@ -4,7 +4,7 @@
 ### To run SonarQube in a Docker container with the provided command, you can follow these steps:
 ### 1.  log in to your Docker Hub account from your Docker host, you can use the following command: 
 
- `docker login`
+    `docker login`
 
 ### 2. Open your terminal.
 ### Enter your Docker Hub username when prompted:
@@ -19,7 +19,7 @@
 
 ### 2. Run the following command:
 
-`docker run -d --name sonar --network host sonarqube:lts-community`
+    `docker run -d --name sonar --network host sonarqube:lts-community`
     
 **Note: i use ( -- network host ) to can abel to access my image from host machine**
 
@@ -57,34 +57,34 @@
 
 ### Save this script in a file, for example, install_docker.sh, and make it executable using:
 
-` chmod +x install_docker.sh `
+    ` chmod +x install_docker.sh `
 
 ### Then, you can run the script using:
 
-` ./install_docker.sh `
+    ` ./install_docker.sh `
 
 ## Create Nexus container
 
 
 ### To create a Docker containe 3 and exposing it on port 8081, you can use the following command: 
-`docker run -d --name nexus -network host  sonatype/nexus3:latest` 
+    `docker run -d --name nexus -network host  sonatype/nexus3:latest` 
 ### After running this command, Nexus will be accessible on your host machine at http://IP:8081.
 
 ## Get Nexus default password
 #### Your provided commands are correct for accessing the Nexus password stored in the container. Here's a breakdown of the steps:
 
 ### Get Container ID
-`docker ps`
+    `docker ps`
 
 ### Access Container's Bash Shell: Once you have the container ID, you can execute the docker exec command to access the container's bash shell:
-`docker exec -it <container_ID> /bin/bash`
+    `docker exec -it <container_ID> /bin/bash`
 ### Navigate to Nexus Directory:
-`cd sonatype-work/nexus3`
+    `cd sonatype-work/nexus3`
 ### View Admin Password: Finally, you can view the admin password by displaying the contents of the admin.password file:
 
-`cat admin.password`
+    `cat admin.password`
 
 ### Exit the Container Shell:
-`exit`
+    `exit`
 ### This process allows you to access the Nexus admin password stored within the container. Make sure to keep this password secure, as it grants administrative access to your Nexus instance.
 
