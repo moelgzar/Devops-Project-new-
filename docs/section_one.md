@@ -1,11 +1,11 @@
-1 -**create VMs**
+# 1-**create VMs**
 
-1.1 - ubntu vm for K8S
-1.2 - ubntu vm for jenknis
-1.3 - ubntu vm for SonarQube
-1.4 - ubntu vm for Nexus 
+## 1.1- ubntu vm for K8S
+## 1.2- ubntu vm for jenknis
+## 1.3- ubntu vm for SonarQube
+## 1.4- ubntu vm for Nexus 
 
-1.1.1 - **install and setup K8S** 
+## 1.1 - **install and setup K8S** 
  
  1. Install Docker[On Master & Worker Node]
     write bash file in doxer.sh and excute it. 
@@ -52,8 +52,8 @@
         sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
- ---------------------------------------------------------------------------------------------
-1.2  ## Installing Jenkins on Ubuntu
+ 
+## 1.2 Installing Jenkins on Ubuntu
 
 ```bash
 #!/bin/bash
