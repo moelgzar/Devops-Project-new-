@@ -19,7 +19,7 @@
 
 ### 2. Run the following command:
 
-    `docker run -d --name sonar --network host sonarqube:lts-community`
+    `docker run -d --name sonar --network host sonarqube:lts-community
     
 **Note: i use ( -- network host ) to can abel to access my image from host machine**
 
