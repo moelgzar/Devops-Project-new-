@@ -11,15 +11,15 @@
 `Username: your_dockerhub_username`
 ### 3. Enter your Docker Hub password:
 `Password: your_dockerhub_password`
-### it will print Login Succeeded
+ ##### it will print Login Succeeded
 
 ### 2. Run the following command:
 
 `docker run -d --name sonar --network host sonarqube:lts-community`
     
-**Note: i use -- network host to can abel to access my image from host machine**
+**Note: i use ( -- network host ) to can abel to access my image from host machine**
 
-### This command will download the sonarqube:lts-community Docker image from Docker Hub if it's not already available locally. Then, it will create a container named "sonar" from this image, running it in detached mode (-d flag) and mapping port 9000 on the host machine to port 9000 in the container (<ip-addrees-for-this-machine:9000> ).
+ This command will download the sonarqube:lts-community Docker image from Docker Hub if it's not already available locally. Then, it will create a container named "sonar" from this image, running it in detached mode (-d flag) and mapping port 9000 on the host machine to port 9000 in the container (<ip-addrees-for-this-machine:9000> ).
 
 # Install and SetUp Nexus 
     ```bash 
