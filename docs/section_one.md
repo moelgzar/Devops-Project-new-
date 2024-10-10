@@ -11,11 +11,11 @@
 write bash file in doxer.sh and excute it. 
 convert docer.sh to exeutable file 
 
-      sudo chmod +x docer.sh
+      `sudo chmod +x docer.sh`
     
-    ```bash
+    
 
-    sudo install -m 0755 -d /etc/apt/keyrings
+   sudo install -m 0755 -d /etc/apt/keyrings
     sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
     sudo chmod a+r /etc/apt/keyrings/docker.asc
 
