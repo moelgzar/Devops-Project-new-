@@ -13,13 +13,13 @@
 
 ### 3. Enter your Docker Hub password:
 
- `Password: your_dockerhub_password`
+ Password: your_dockerhub_password
 
  ##### it will print Login Succeeded
 
 ### 2. Run the following command:
 
-    `docker run -d --name sonar --network host sonarqube:lts-community
+    docker run -d --name sonar --network host sonarqube:lts-community
     
 **Note: i use ( -- network host ) to can abel to access my image from host machine**
 
@@ -79,12 +79,12 @@
 ### Access Container's Bash Shell: Once you have the container ID, you can execute the docker exec command to access the container's bash shell:
     `docker exec -it <container_ID> /bin/bash`
 ### Navigate to Nexus Directory:
-    `cd sonatype-work/nexus3`
+    cd sonatype-work/nexus3
 ### View Admin Password: Finally, you can view the admin password by displaying the contents of the admin.password file:
 
-    `cat admin.password`
+    cat admin.password
 
 ### Exit the Container Shell:
-    `exit`
+    exit
 ### This process allows you to access the Nexus admin password stored within the container. Make sure to keep this password secure, as it grants administrative access to your Nexus instance.
 
