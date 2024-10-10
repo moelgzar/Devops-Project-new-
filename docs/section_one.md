@@ -8,10 +8,13 @@
 ## 1.1 - **install and setup K8S** 
  
  ### 1. Install Docker[On Master & Worker Node]
-    write bash file in doxer.sh and excute it. 
-     convert docer.sh to exeutable file 
-    `sudo chmod +x docer.sh`
+write bash file in doxer.sh and excute it. 
+convert docer.sh to exeutable file 
+
+      sudo chmod +x docer.sh
+    
     ```bash
+
     sudo install -m 0755 -d /etc/apt/keyrings
     sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
     sudo chmod a+r /etc/apt/keyrings/docker.asc
