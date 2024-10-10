@@ -4,13 +4,17 @@
 ### To run SonarQube in a Docker container with the provided command, you can follow these steps:
 ### 1.  log in to your Docker Hub account from your Docker host, you can use the following command: 
 
-`docker login`
+ `docker login`
 
 ### 2. Open your terminal.
 ### Enter your Docker Hub username when prompted:
-`Username: your_dockerhub_username`
+
+ `Username: your_dockerhub_username`
+
 ### 3. Enter your Docker Hub password:
-`Password: your_dockerhub_password`
+
+ `Password: your_dockerhub_password`
+
  ##### it will print Login Succeeded
 
 ### 2. Run the following command:
@@ -53,10 +57,11 @@
 
 ### Save this script in a file, for example, install_docker.sh, and make it executable using:
 
-`chmod +x install_docker.sh`
+` chmod +x install_docker.sh `
+
 ### Then, you can run the script using:
 
-`./install_docker.sh`
+` ./install_docker.sh `
 
 ## Create Nexus container
 
